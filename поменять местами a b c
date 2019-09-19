@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b, c, d;
+	cout << "Vvedite chisla a, b, c";
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	d=b;
+	b=c;
+	c=a;
+	a=d;
+	cout << a;
+	cout <<" ";
+	cout <<b;
+	cout <<" ";
+	cout <<c;
+    return 0;
+}
